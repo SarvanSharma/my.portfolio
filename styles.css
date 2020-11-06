@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Scroll bar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ea7659;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/**/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", "Sans-serif";
+  background-color: #fffafa;
+}
+.listitems {
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 0 30px;
+}
+.h1text {
+  text-align: center;
+}
+.navbarname {
+  margin-left: 50px;
+}
+.spanname {
+  color: #ea7659;
+}
+.navbardiv a:hover {
+  color: #ea7659 !important;
+}
+
+button:focus {
+  outline: none !important;
+  outline: 5px auto -webkit-focusring-color !important;
+}
+.navbarmain {
+  margin-top: 20px;
+}
+.contentmain {
+  height: 65vh;
+  width: auto;
+  margin: 10vh auto 27vh auto;
+  /* background-color: lightblue; */
+}
+.contentmain h1 {
+  text-align: center;
+  padding-top: 25vh;
+}
+.fed {
+  color: #ea7659 !important ;
+}
+.ceh {
+  color: #ea7659 !important ;
+}
+.contentmain p {
+  text-align: center;
+  padding-top: 7vh;
+  font-size: large;
+}
+.firstsec {
+  margin: 50px 0;
+}
+.firstimg {
+  height: 60%;
+  width: 80%;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.secondimg {
+  height: 60%;
+  width: 80%;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+.firstsec p {
+  margin: 100px 0;
+  padding: 50px;
+  line-height: 2;
+}
+.secondsecp {
+  margin: 100px 0;
+  padding: 50px;
+  line-height: 2;
+}
+
+.secondrow {
+  margin: 100px auto 100px auto;
+}
+
+/* SEcond sec*/
+.secondsec {
+  margin-top: 20vh;
+  height: 80vh;
+}
+.sarvanimg {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+.imgdiv {
+  margin: 100px 0 10vh 88vh;
+}
+.Aboutmeme {
+  text-align: center;
+}
+.aboutmetext {
+  margin-bottom: 50px;
+}
+/*Third sec*/
+
+.thirdsec {
+  height: 80vh;
+  margin-top: 10vh;
+}
+.colp {
+  margin-top: 50px;
+}
+.contact {
+  position: relative;
+}
+.contacts {
+  position: relative;
+  left: 50%;
+  text-decoration: none;
+  color: black;
+}
+.contacts:hover {
+  text-decoration: none;
+  color: #ea7659;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 300px;
+  justify-content: center;
+  text-decoration: none;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #ea7659;
+  padding: 15px;
+  color: #555;
+}
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid #ea7659;
+  padding: 15px;
+  color: #555;
+}
+input[type="submit"] {
+  border: none;
+  padding: 5px;
+  width: 20%;
+  color: black;
+  background-color: #ea7659;
+  border-radius: 10px;
+}
+input[type="submit"]:hover {
+  background-color: #dc552c;
+}
+
+/**/
+/*Footer*/
+
+.footer {
+  background-color: #ea7659;
+  text-align: center;
+  padding: 5px;
+}
+
+/**/
+
+@media only screen and (max-width: 414px) {
+  .contentmain {
+    height: 65vh;
+    width: auto;
+    margin: 0 0 -100px 0;
+    /* background-color: lightblue; */
+  }
+  .listitems {
+    margin-left: 60px;
+
+    padding: 0 30px;
+  }
+  .navbarname {
+    margin-left: 90px;
+  }
+  .contentmain h1 {
+    text-align: center;
+    padding-top: 20vh;
+  }
+  .contentmain p {
+    text-align: center;
+    padding-top: 5vh;
+    font-size: large;
+    margin: 0 5px;
+  }
+  .firstimg {
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 0px;
+  }
+  .secondimg {
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .firstsec {
+    margin: 105px 0;
+  }
+  .firstsec p {
+    margin: 50px 0;
+    padding: 50px;
+  }
+  .secondrow {
+    margin: 100px auto 100px auto;
+  }
+  .secondsecp {
+    margin: auto;
+    padding: 10px;
+  }
+  .sarvanimg {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 1vh;
+  }
+  .imgdiv {
+    margin: 0 0 50px 125px;
+  }
+  .Aboutmeme {
+    text-align: center;
+    margin: 0 3px;
+  }
+  .secondsec {
+    margin: 0;
+    height: 80vh;
+  }
+  .contacts {
+    position: relative;
+    left: 165px;
+  }
+  .thirdsec {
+    height: 60vh;
+    margin-top: 0px;
+    margin-bottom: 20vh;
+  }
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 10px;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .someextraspace {
+    height: 10vh;
+    margin-bottom: 100px;
+  }
+  .footer {
+    display: none;
+  }
+}
