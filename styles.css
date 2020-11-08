@@ -145,11 +145,21 @@ button:focus {
 }
 .contacts {
   position: relative;
+  left: 44%;
+  text-decoration: none;
+  color: black;
+}
+.contactsmail {
+  position: relative;
   left: 50%;
   text-decoration: none;
   color: black;
 }
 .contacts:hover {
+  text-decoration: none;
+  color: #ea7659;
+}
+.contactsmail:hover {
   text-decoration: none;
   color: #ea7659;
 }
@@ -265,10 +275,15 @@ input[type="submit"]:hover {
     margin: 0;
     height: 80vh;
   }
-  .contacts {
+    .contacts {
+    position: relative;
+    left: 100px;
+  }
+  .contactsmail {
     position: relative;
     left: 165px;
   }
+
   .thirdsec {
     height: 60vh;
     margin-top: 0px;
