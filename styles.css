@@ -286,15 +286,18 @@ input[type="submit"]:hover {
     margin: 0;
     height: 80vh;
   }
-    .contacts {
+  .contacts {
     position: relative;
-    left: 100px;
+    left: 80px;
+  }
+  .contacts1 {
+    position: relative;
+    left: 120px;
   }
   .contactsmail {
     position: relative;
     left: 165px;
   }
-
   .thirdsec {
     height: 60vh;
     margin-top: 0px;
