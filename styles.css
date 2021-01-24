@@ -145,13 +145,19 @@ button:focus {
 }
 .contacts {
   position: relative;
-  left: 44%;
+  left: 37%;
+  text-decoration: none;
+  color: black;
+}
+.contacts1 {
+  position: relative;
+  left: 46%;
   text-decoration: none;
   color: black;
 }
 .contactsmail {
   position: relative;
-  left: 50%;
+  left: 53%;
   text-decoration: none;
   color: black;
 }
