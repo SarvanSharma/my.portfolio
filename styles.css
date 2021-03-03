@@ -76,9 +76,11 @@ button:focus {
   color: #ea7659 !important ;
 }
 .contentmain p {
+  position: relative;
+  top: 170px;
   text-align: center;
   padding-top: 7vh;
-  font-size: large;
+  font-size: 2rem;
 }
 .firstsec {
   margin: 50px 0;
